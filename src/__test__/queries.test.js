@@ -52,6 +52,8 @@ describe('Unit testing', () => {
         }
       }
     `;
+
+    const variable = "o"
   
     
     done()
