@@ -42,4 +42,20 @@ describe('Unit testing', () => {
     done()
   });
 
+  it('dada',(done) => {
+    //language=GraphQL
+    const query = `
+      query Q {
+        users {
+          _id
+          name
+        }
+      }
+    `;
+  
+    
+    done()
+  });
+
+
 })
