@@ -1,0 +1,42 @@
+{
+  "name": "ci_gitaction_docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --verbose --coverage --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelquistial/ci_gitaction_docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelquistial/ci_gitaction_docker/issues"
+  },
+  "homepage": "https://github.com/manuelquistial/ci_gitaction_docker#readme",
+  "dependencies": {
+    "@shelf/jest-mongodb": "^2.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.1.0",
+    "graphql-playground-middleware-express": "^1.7.23",
+    "jest-cli": "^27.4.5",
+    "mongodb": "^4.2.2",
+    "mongodb-memory-server": "^8.0.4",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.16.5",
+    "jest": "^27.4.5",
+    "supertest": "^6.1.6"
+  },
+  "config": {
+    "mongodbMemoryServer": {
+      "version": "latest"
+    }
+  }
+}
